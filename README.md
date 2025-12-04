@@ -3,7 +3,7 @@ group project for web development class
 install the usual stuff from class
 
 CS 290 Final Project (Formation and Ideas) - Group 24
-Alex Jones, Spencer Bard, Tiago Brockert, Max Burford
+Alex Jones, Spencer Bard, Tiago Brockert
 Website Idea: Our website is made for software developers and allows
 users to browse useful documentation across multiple software platforms
 and systems by letting users search and filter through docs. Users can also
@@ -19,7 +19,7 @@ Tiago Brockert [brockert@oregonstate.edu] (Data Curator): Gathers, prepares,
 and categorizes the documentation items for the site itself (title, link,
 category, quick description, maybe a little icon/thumbnail). Organizes them
 as a CSV for role 2. Aim for 30-40 different items.
-Max Burford [burfomax@oregonstate.edu] (Integration + JS): Writes ALL
+(Integration + JS): Writes ALL
 JavaScript logic. This includes: fetching docs from backend, searching,
 filters, % calculation/display, yes/no buttons, and updating user after rating.
 Also, combines the different contributions at the end, testing, git + repo
