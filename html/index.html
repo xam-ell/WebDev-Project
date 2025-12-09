@@ -1,9 +1,77 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Title </title>
-    </head>
-    <body>
-        <p> Paragraph </p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title> Documentation Website</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <h1> Documentation Hub</h1>
+        <p class="tagline"> Discover and rate helpful CS documentations</p>
+    </header>
+    
+    <div class="layout">
+
+        <div class="filter-bar">
+            <h3>Filters</h3>
+
+            <h4>Sort By</h4>
+            <label>
+                <input type="radio" name="sort" value ="most-helpful">
+                Most Helpful
+            </label><br>
+            <label>
+                <input type="radio" name="sort" value ="least-helpful">
+                Least Helpful
+            </label><br>
+            <label>
+                <input type="radio" name="sort" value ="newest">
+                Newest
+            </label>
+
+            <h4>Languages</h4>
+            <label><input type="checkbox" value="python"> Python</label><br>
+            <label><input type="checkbox" value="javascript"> JavaScript</label><br>
+            <label><input type="checkbox" value="java"> Java</label><br>
+            <label><input type="checkbox" value="html-css"> HTML / CSS</label><br>
+            <label><input type="checkbox" value="c++"> C++</label>
+        </div>
+
+    <main class="page-content">
+
+        <section class="search-section">
+            <label for="search-input">Search Documentation:</label>
+            <input id="search-input" type="text" placeholder="ex: Python loops">
+            <button type="button">Search</button>
+        </section>
+
+        <section class="docs-section">
+            <h2>Documentation</h2>
+
+            <div id="docs-container">
+                <!-- Example card for layout-->
+
+                <div class="doc-card">
+                    <h3>Example Documentation Title</h3>
+                    <p class="doc-description">Short description of the documentation goes here.</p>
+                    <a class="doc-link" href="#" target="_blank">Visit documentation</a>
+
+                    <p class="helpfulness">Helpfulness: --%</p>
+
+                    <div class="rating">
+                        <span>Was this document helpful?:</span>
+                        <button class="rate-yes">Yes</button>
+                        <button class="rate-no">No</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    </div>
+
+</body>
 </html>
