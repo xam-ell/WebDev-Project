@@ -1,0 +1,31 @@
+name,category,description,link
+Python,Programming Language,General purpose language popular for scripting data science and web apps,https://docs.python.org/3/
+JavaScript,Programming Language,Language used for client and server side development,https://developer.mozilla.org/docs/Web/JavaScript
+Java,Programming Language,Object oriented language widely used for enterprise apps and Android,https://docs.oracle.com/en/java/
+C,Programming Language,Low level systems language used for operating systems and embedded code,https://en.cppreference.com/w/c
+C++,Programming Language,"General purpose language that extends C with objects, templates, and abstractions",https://en.cppreference.com/w/cpp
+C#,Programming Language,"Modern object oriented language for .NET apps, games, and tools",https://learn.microsoft.com/dotnet/csharp/
+Go,Programming Language,Compiled language from Google designed for concurrency and simplicity,https://go.dev/doc/
+Rust,Programming Language,"Systems language focused on safety, performance, and concurrency",https://doc.rust-lang.org/
+Ruby,Programming Language,Dynamically typed language known for its developer friendly syntax,https://www.ruby-lang.org/en/documentation/
+PHP,Programming Language,Server side scripting language commonly used for creating dynamic web sites,https://www.php.net/docs.php
+React,Frontend Framework,JavaScript library for building component based user interfaces,https://react.dev/learn
+Node.js,Runtime Environment,JavaScript runtime for building scalable backend services,https://nodejs.org/en/docs
+Django,Web Framework,High level Python web framework,https://docs.djangoproject.com/en/stable/
+Flask,Web Framework,Lightweight Python microframework for building web APIs and apps,https://flask.palletsprojects.com/
+Express.js,Web Framework,Minimal and flexible web framework for Node.js servers,https://expressjs.com/
+Angular,Frontend Framework,Full featured framework for building single page applications,https://angular.io/docs
+Vue.js,Frontend Framework,Progressive framework for building user interfaces and SPAs,https://vuejs.org/guide/introduction.html
+TensorFlow,Machine Learning Framework,Platform for building and deploying machine learning models,https://www.tensorflow.org/api_docs
+PyTorch,Machine Learning Framework,Deep learning framework with dynamic computation graphs,https://pytorch.org/docs/stable/index.html
+Unity,Game Engine,Engine and editor for creating 2D and 3D games and simulations,https://docs.unity3d.com/Manual/index.html
+Git,Version Control,Distributed version control system for tracking changes in code,https://git-scm.com/doc
+GitHub,Code Hosting Platform,Platform for hosting repositories issues and collaboration,https://docs.github.com/
+Visual Studio Code,Code Editor,Lightweight code editor with many downloadable plugins,https://code.visualstudio.com/docs
+Docker,Container Platform,"Tooling for building, shipping, and running applications in containers",https://docs.docker.com/
+Kubernetes,Container Orchestration,"System for automating, deployment, scaling, and management of containerized apps",https://kubernetes.io/docs/home/
+PostgreSQL,Database,Open source relational database with advanced SQL features,https://www.postgresql.org/docs/
+MySQL,Database,Popular open source relational database for web applications,https://dev.mysql.com/doc/
+MongoDB,Database,Document oriented NoSQL database storing data as flexible JSON like documents,https://www.mongodb.com/docs/
+Ubuntu,Operating System,"Popular Linux distribution for servers, desktops, and development",https://ubuntu.com/tutorials
+AWS,Cloud Platform,Amazon cloud platform offering compute storage databases and many services,https://docs.aws.amazon.com/
