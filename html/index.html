@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title> Documentation Website</title>
-    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/index.js" defer></script>
 </head>
 <body>
 
@@ -33,75 +34,76 @@
 
             <h4>Categories</h4>
             <label>
-                <input type="checkbox" name="category" value="programming-languages">
+                <input type="checkbox" name="category" value="Programming Language">
                 Programming Languages
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="frontend-frameworks">
+                <input type="checkbox" name="category" value="Frontend Framework">
                 Frontend Frameworks
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="runtime-environments">
+                <input type="checkbox" name="category" value="Runtime Environment">
                 Runtime Environments
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="web-frameworks">
+                <input type="checkbox" name="category" value="Web Framework">
                 Web Frameworks
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="machine-learning-frameworks">
+                <input type="checkbox" name="category" value="Machine Learning Framework">
                 Machine Learning Frameworks
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="game-engines">
+                <input type="checkbox" name="category" value="Game Engine">
                 Game Engines
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="version-control">
+                <input type="checkbox" name="category" value="Version Control">
                 Version Control
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="code-hosting-platforms">
+                <input type="checkbox" name="category" value="Code Hosting Platform">
                 Code Hosting Platforms
             </label><br>
-            
+
             <label>
-                <input type="checkbox" name="category" value="code-editors">
+                <input type="checkbox" name="category" value="Code Editor">
                 Code Editors
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="container-platforms">
+                <input type="checkbox" name="category" value="Container Platform">
                 Container Platforms
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="container-orchestration">
+                <input type="checkbox" name="category" value="Container Orchestration">
                 Container Orchestration
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="databases">
+                <input type="checkbox" name="category" value="Database">
                 Databases
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="operating-systems">
+                <input type="checkbox" name="category" value="Operating System">
                 Operating Systems
             </label><br>
 
             <label>
-                <input type="checkbox" name="category" value="cloud-platforms">
+                <input type="checkbox" name="category" value="Cloud Platform">
                 Cloud Platforms
+            </label>
         </div>
-
+        
     <main class="page-content">
 
         <section class="search-section">
@@ -113,24 +115,7 @@
         <section class="docs-section">
             <h2>Documentation</h2>
 
-            <div id="docs-container">
-                <!-- Example card for layout-->
-
-                <div class="doc-card">
-                    <h3>Example Documentation Title</h3>
-                    <p class="doc-description">Short description of the documentation goes here.</p>
-                    <a class="doc-link" href="#" target="_blank">Visit documentation</a>
-
-                    <p class="helpfulness">Helpfulness: --%</p>
-
-                    <div class="rating">
-                        <span>Was this document helpful?:</span>
-                        <button class="rate-yes">Yes</button>
-                        <button class="rate-no">No</button>
-                    </div>
-                </div>
-
-            </div>
+            <div id="docs-container"></div>
         </section>
     </main>
 
